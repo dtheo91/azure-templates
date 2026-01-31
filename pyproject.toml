@@ -1,0 +1,19 @@
+[project]
+name = "azure-templates"
+version = "0.1.0"
+description = "Azure Templates"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas==2.3.3",
+    "scikit-learn==1.8.0",
+    "catboost==1.2.8",
+    "category-encoders==2.9.0",
+    "statsmodels==0.14.6",
+    "ipykernel>=7.1.0",
+    "azure-identity==1.25.1",
+    "azure-ai-ml==1.31.0",
+    "azureml-mlflow==1.61.0.post1",
+    "mlflow==3.5.0",
+    "pydantic==2.12.5",
+    "pydantic-settings==2.12.0"
+]
