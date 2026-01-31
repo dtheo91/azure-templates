@@ -12,5 +12,6 @@ class Config(BaseSettings):
     azure_workspace_name: str = "wgg-swe-aml-ds"
     azure_experiment_name: str = "ml-contracts-kommunikation"
 
+
     # Load Environment
     model_config = SettingsConfigDict(env_file=os.path.join(os.path.dirname(__file__), "..", ".env"), extra="ignore")
