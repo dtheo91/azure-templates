@@ -3,7 +3,7 @@ from azure.identity import DefaultAzureCredential
 import mlflow
 
 
-class AzureClient:
+class AzureMLClient:
     def __init__(self, subscription_id: str, ressource_group: str, workspace_name: str):
         self.ml_client = MLClient(
             credential=DefaultAzureCredential(),
