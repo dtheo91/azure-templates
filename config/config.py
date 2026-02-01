@@ -5,12 +5,13 @@ import os
 
 class Config(BaseSettings):
     # Azure Foundry
+    user_endpoint: str
 
     # Azure ML
-    azure_subscription_id: str = ""
-    azure_resource_group: str = ""
-    azure_workspace_name: str = ""
-    azure_experiment_name: str = ""
+    azure_subscription_id: str
+    azure_resource_group: str
+    azure_workspace_name: str
+    azure_experiment_name: str
 
 
     # Load Environment
