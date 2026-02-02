@@ -209,3 +209,4 @@ __marimo__/
 .idea
 notebooks/*
 !notebooks/example-agent-call.ipynb
+!notebooks/example-docint.ipynb
